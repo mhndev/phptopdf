@@ -1,0 +1,23 @@
+{
+    "name": "majid/phptopdf",
+    "keywords":["laravel","pdf","phptopdf","htmltopdf","imagetopdf","urltopdf","laravel4.2"]
+    "description": "laravel 4.2 package to converting html or php to pdf, this package also have the ability to get the url and return pdf which was generated from specified url.
+    this is an online service so you need intermet access to use this package.sign up in www.phptopdf.com then get the key and then open your_project_path/vendor/phptopdf/src/Majid/Phptopdf/phptopdf.php
+     go to line 5 and copy and paste the API_KEY you have taken from www.phptopdf.com",
+    "authors": [
+        {
+            "name": "Majid Hosseini",
+            "email": "majid8911303@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Majid\\Phptopdf": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
